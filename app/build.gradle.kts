@@ -58,4 +58,8 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     // Coil per mostrar imatges
     implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("androidx.media3:media3-exoplayer:1.9.1")
+    implementation("com.google.accompanist:accompanist-permissions:0.37.3")
+    implementation("androidx.media3:media3-ui:1.9.1")
+
 }
